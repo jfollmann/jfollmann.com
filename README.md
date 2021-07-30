@@ -1,6 +1,8 @@
 # jfollmann.com
 
-<center>My personal website, hosted on ghPages</center>
+<p align="center">
+My personal website, hosted on ghPages
+</p>
 
 <br>
 
@@ -9,4 +11,4 @@
 </p>
 
 
-<center>❤️</center>
+<p align="center">❤️</p>
