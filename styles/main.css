@@ -1,0 +1,43 @@
+* {
+  transition: background-color 0.7s ease, color 0.3s ease;
+}
+
+.theme { 
+  font-size: 22px;
+}
+
+.image {
+  margin-bottom: 16px;
+}
+
+.image>img {
+  width: 100px;
+}
+
+.updated, .theme {
+  margin-left: auto;
+  padding: 10px;
+}
+
+.dark-mode {
+  background-color: #282a36;
+}
+
+.dark-mode .has-text-primary {
+  color: #bd93f9 !important;
+}
+
+.dark-mode .fa-sun,
+.dark-mode h1,
+.dark-mode h4 {
+  color: #f8f8f2;
+}
+
+.dark-mode a {
+  color: #f1fa8c;
+}
+
+.dark-mode .button {
+  background-color: #44475a;
+  color: #f8f8f2
+}
