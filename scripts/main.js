@@ -27,4 +27,6 @@ const toggleSwitchClick = () => {
 document.addEventListener('DOMContentLoaded', () => {
   applyTheme();
   toggleSwitch.onclick = toggleSwitchClick;
+
+  console.log('DOMContentLoaded is ready!')
 });
