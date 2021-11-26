@@ -1,12 +1,11 @@
-const DARK_MODE = 'dark-mode';
-const LIGHT_MODE = 'light-mode';
-const THEME = 'mode';
+const [DARK_MODE, LIGHT_MODE] = ['dark-mode', 'light-mode'];
+const THEME_KEY = 'mode';
 
 const toggleSwitch = document.getElementById('toggle-switch');
 
 const applyTheme = () => {
   const html = document.documentElement;
-  const currentMode = localStorage.getItem(THEME);
+  const currentMode = localStorage.getItem(THEME_KEY);
   const isDarkSelected = currentMode === DARK_MODE;
   const faIcon = isDarkSelected
     ? '<i class="fas fa-sun"></i>'
@@ -17,8 +16,8 @@ const applyTheme = () => {
 }
 
 const toggleSwitchClick = () => {
-  const currentMode = localStorage.getItem(THEME);
-  localStorage.setItem(THEME,
+  const currentMode = localStorage.getItem(THEME_KEY);
+  localStorage.setItem(THEME_KEY,
     currentMode === DARK_MODE ? LIGHT_MODE : DARK_MODE
   );
   applyTheme();
