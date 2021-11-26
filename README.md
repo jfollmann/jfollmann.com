@@ -1,4 +1,4 @@
-# jfollmann.com
+# https://jfollmann.com
 
 <p align="center">
 My personal website, hosted on ghPages
